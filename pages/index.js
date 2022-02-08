@@ -32,7 +32,7 @@ export async function getServerSideProps(context) {
     `https://api.themoviedb.org/3${
       requests[genre]?.url || requests.fetchTrending.url
     }`
-  ).then((res) => res.json());
+  ).then((res) => JSON.parse(JSON.stringify(res)));
 
     console.log(request);
   return {

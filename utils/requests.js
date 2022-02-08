@@ -1,5 +1,5 @@
-// const API_KEY = process.env.API_KEY;
-const API_KEY = "cd16d8b18d0c481609160de2053024e3";
+const API_KEY = process.env.API_KEY;
+// const API_KEY = "cd16d8b18d0c481609160de2053024e3";
 
 export default {
   fetchTrending: {
